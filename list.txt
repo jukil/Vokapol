@@ -1,0 +1,6 @@
+﻿###################################
+# Vocabulary list German - Polish #
+# Last update: 01.03.2012         #
+###################################
+
+Spyalnia, Schlafzimmer
