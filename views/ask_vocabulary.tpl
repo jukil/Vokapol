@@ -6,7 +6,7 @@
         <input class="button big" id="user_input" name="user_input" type="text" autofocus required>
         <script>
             if (!("autofocus" in document.createElement("input"))) {
-                document.getElementbyId("user_input").focus();
+                document.getElementById("user_input").focus();
             }
         </script>
         <input class="hidden" name="vocabulary" value="{{vocabulary}}" type="text">

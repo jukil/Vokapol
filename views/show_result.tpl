@@ -7,7 +7,7 @@
     <input id="retry" name="retry" class="button big active" type="submit" value="Retry" autofocus>
     <script>
         if (!("autofocus" in document.createElement("input"))) {
-            document.getElementbyId("retry").focus();
+            document.getElementById("retry").focus();
         }
     </script>
     <input class="hidden" name="vocabulary" type="text" value="{{vocabulary}}">
@@ -18,7 +18,7 @@
     <input id="retry" name="retry" class="button big active" type="submit" value="Retry" autofocus>
     <script>
         if (!("autofocus" in document.createElement("input"))) {
-            document.getElementbyId("retry").focus();
+            document.getElementById("retry").focus();
         }
     </script>
     <input class="hidden" name="vocabulary" type="text" value="{{vocabulary}}">
@@ -28,7 +28,7 @@
 %else:
     <a href="/{{setting}}" id="next" class="button big active">Next vocabulary</a>
     <script>
-        document.getElementbyId("next").focus();
+        document.getElementById("next").focus();
     </script>
 %end
 </div>

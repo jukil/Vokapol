@@ -57,7 +57,7 @@ def show_version():
 @route('/static/<filename>')
 def send_static(filename):
     return static_file(filename, root='static')
-    
-#run(host='localhost', port=8080, debug=True, reloader=True)
-run(port = 40070)
+
+if __name__ == '__main__':
+    run(host='localhost', port=8080, debug=True, reloader=True)
     
