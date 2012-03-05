@@ -1,0 +1,3 @@
+﻿Sypialnia = Schlafzimmer
+łazienka = Badezimmer
+stół = Tisch
