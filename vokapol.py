@@ -28,7 +28,7 @@ def check_vocabulary(setting):
 
 @route('/')
 @route('/<setting>', method = 'get')
-def ask_for_vocabulary(setting = 'pl-de'):
+def ask_for_vocabulary(setting = 'dicts/pl-de'):
     random_line = random.choice(open('de-pl.txt').readlines())
     words = random_line.split(' = ')
     
@@ -50,7 +50,7 @@ def ask_for_vocabulary(setting = 'pl-de'):
     
 @route('/version')
 def show_version():
-    words = open('de-pl.txt').readlines()
+    words = open('dicts/de-pl.txt').readlines()
     
     return template('version', words = len(words))
     
