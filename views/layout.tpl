@@ -15,7 +15,7 @@
             %include
         </div>
         <div id="footer">
-            <a href="http://github.com/README.md#LearnOffline">Go offline</a> <a href="mailto:orschiro@googlemail.com">Contact</a> <a href="/version">Vokapol v0.1</a> <a href="http://github.com/README.md">Source code</a>
+            <a href="http://github.com/orschiro/Vokapol">Go offline</a> <a href="mailto:orschiro@googlemail.com">Contact</a> <a href="/version">Vokapol v0.1</a> <a href="http://github.com/orschiro/Vokapol">Source code</a>
         </div>
     </body>
 </html>
