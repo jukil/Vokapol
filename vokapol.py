@@ -60,4 +60,6 @@ def send_static(filename):
 
 if __name__ == '__main__':
     run(host='localhost', port=8080, debug=True, reloader=True)
+else:
+    run(port = 59749, server = 'cherrypy')
     
