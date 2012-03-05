@@ -28,8 +28,8 @@ def check_vocabulary(setting):
 
 @route('/')
 @route('/<setting>', method = 'get')
-def ask_for_vocabulary(setting = 'dicts/pl-de'):
-    random_line = random.choice(open('de-pl.txt').readlines())
+def ask_for_vocabulary(setting = '/pl-de'):
+    random_line = random.choice(open('dicts/de-pl.txt').readlines())
     words = random_line.split(' = ')
     
     # Set the vocabulary and the solution based on the language choice
