@@ -41,7 +41,7 @@ p {
     padding-right: 5px;
 }
 
-input[name=vocabulary] {
+input[name="user_input"] {
     width: 200px;
 }
 
