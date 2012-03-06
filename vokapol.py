@@ -28,7 +28,7 @@ def check_vocabulary(setting):
 
 @route('/')
 @route('/<setting>', method = 'get')
-def ask_for_vocabulary(setting = '/pl-de'):
+def ask_for_vocabulary(setting = 'pl-de'):
     random_line = random.choice(open('dicts/de-pl.txt').readlines())
     words = random_line.split(' = ')
     
