@@ -1,4 +1,4 @@
-﻿import random
+﻿import random, socket
 from bottle import route, run, post, request, template, static_file
 
 # Handle all POST routes
@@ -58,8 +58,8 @@ def show_version():
 def send_static(filename):
     return static_file(filename, root='static')
 
-if __name__ == '__main__':
-    run(host='localhost', port=8080, debug=True, reloader=True)
-else:
+# determine whether the application is launched on the server. Otherwise use localhost settings. 
+if socket.gethostname() == 'web150.webfaction.com':
     run(port = 59749, server = 'cherrypy')
-    
+else:
+    run(host='localhost', port=8080, debug=True, reloader=True)
