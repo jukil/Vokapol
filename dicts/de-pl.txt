@@ -1,18 +1,76 @@
-﻿sypialnia = Schlafzimmer
-łazienka = Badezimmer
-stół = Tisch
-dwuosobowy = zwei Zimmer
-wściekły = rasend
-szczyt = Gipfel
-słynny = berühmt
-kopalnia = Mine
-węgiel = Kohle
-wieś = Dorf
-wywiad = Interview
-łąka = Wiese
-rzeźbiarz = Bildhauer
-ślub = Ehe
-urząd = Amt
-marzenie = Traum
-jadalnia = Esszimmer
-gabinet = Arbeitszimmer
+﻿sypialnia = Schlafzimmer = Placeholder
+łazienka = Badezimmer = Placeholder
+stół = Tisch = Placeholder
+dwuosobowy = zwei Zimmer = Placeholder
+wściekły = rasend = Placeholder
+szczyt = Gipfel = Placeholder
+słynny = berühmt = Placeholder
+kopalnia = Mine = Placeholder
+węgiel = Kohle = Placeholder
+wieś = Dorf = Placeholder
+wywiad = Interview = Placeholder
+łąka = Wiese = Placeholder
+rzeźbiarz = Bildhauer = Placeholder
+ślub = Ehe = Placeholder
+urząd = Amt = Placeholder
+marzenie = Traum = Placeholder
+jadalnia = Esszimmer = Placeholder
+gabinet = Arbeitszimmer = Placeholder
+jesień = 
+wiosna = Frühling = spring
+łyżwy = 
+mnóstwo
+korek = Stau = traffic jam
+tłok
+szaleńczo
+wzruszającym
+miłości
+wręcz
+zrebranie
+oprócz
+oraz
+kamienicy
+własnym
+kominek = Feuerstelle = fire place
+spiżarnia
+strych = Speicher = attic
+wnuków = Enkel = 
+samodzielne = ein(e) einzelnes Zimmer / Wohnung
+wspólne = 
+ponure
+ciasne
+przestronne
+lektorki
+miesięcznie = monatlich = monthly
+kawalerka
+aneks
+lub
+wyposażona
+płatność
+szczegóły
+lodówka = Kühlschrank = fridge
+sofa = Sofa = couch
+lampa = Lampe = 
+regał = Regal = shelf
+pralka = Waschmaschine = laundry
+lóżko = Bett = bed
+fotel = Sessel = chair
+wanna = Badewanne = bathtub
+półka = Regal = shelf
+prysznic = Dusche = shower
+lustro = Spiegel = mirror
+krzesło = Stuhl = chair
+wieszak = Kleiderbügel =
+kuchenka = Herd = cooker
+zmywarka = Spülmaschine = dishwasher
+szafka = Schrank = cupboard
+telewizor = Fenseher = TV
+szafa = Schrank = cupboard
+kwiatek = Blume = flower
+komoda = Kommode = chest of drawers
+stół = Tisch = table
+umywalka = Waschbecken = sink
+ubikacja = Toilette = toilet
+obraz = Bild = picture
+biurko = Schreibtisch = desk
+zlew = Spülbecken = sink

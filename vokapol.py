@@ -39,12 +39,12 @@ def ask_for_vocabulary(setting = 'pl-de'):
     elif setting == 'de-pl':
         vocabulary = words[1]
         solution = words[0]
-    else:
-        vocabulary = random.choice(words)
-        if vocabulary == words[1]:
-            solution = words[0]
-        else:
-            solution = words[1]
+    elif setting == 'pl-en':
+	vocabulary = words[0]
+	solution = words[2]
+    elif setting == 'en-pl':
+	vocabulary = words[2]
+	solution = words[0]
     
     return template('ask_vocabulary', vocabulary = vocabulary, solution = solution, setting = setting)
     
