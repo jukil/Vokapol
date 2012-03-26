@@ -1,56 +1,60 @@
-﻿sypialnia = Schlafzimmer = Placeholder
-łazienka = Badezimmer = Placeholder
-stół = Tisch = Placeholder
-dwuosobowy = zwei Zimmer = Placeholder
-wściekły = rasend = Placeholder
-szczyt = Gipfel = Placeholder
-słynny = berühmt = Placeholder
-kopalnia = Mine = Placeholder
-węgiel = Kohle = Placeholder
-wieś = Dorf = Placeholder
-wywiad = Interview = Placeholder
-łąka = Wiese = Placeholder
-rzeźbiarz = Bildhauer = Placeholder
-ślub = Ehe = Placeholder
-urząd = Amt = Placeholder
-marzenie = Traum = Placeholder
-jadalnia = Esszimmer = Placeholder
-gabinet = Arbeitszimmer = Placeholder
-jesień = 
+# Vokapol dictionary, last update: 26.03.2012
+# Syntax example: Polish word = German word = English word
+# Yet not finished or unclear entries are marked with #
+#
+sypialnia = Schlafzimmer = sleeping room
+łazienka = Badezimmer = bath room
+stół = Tisch = table
+dwuosobowy = zwei Zimmer = two rooms (adj)
+wściekły = rasend = scorching
+szczyt = Gipfel = summit
+słynny = berühmt = famous
+kopalnia = Mine = mine
+węgiel = Kohle = coal
+wieś = Dorf = village
+wywiad = Interview = interview
+łąka = Wiese = meadow
+rzeźbiarz = Bildhauer = sculptor
+ślub = Ehe = marriage
+urząd = Amt = office
+marzenie = Traum = dream
+jadalnia = Esszimmer = dining room
+gabinet = Arbeitszimmer = office
+#jesień = 
 wiosna = Frühling = spring
-łyżwy = 
-mnóstwo
+#łyżwy = 
+#mnóstwo =
 korek = Stau = traffic jam
-tłok
-szaleńczo
-wzruszającym
-miłości
-wręcz
-zrebranie
-oprócz
-oraz
-kamienicy
-własnym
+#tłok
+#szaleńczo
+#wzruszającym
+#miłości
+#wręcz
+#zrebranie
+#oprócz
+#oraz
+kamienicy = altes Haus = old house
+#własnym
 kominek = Feuerstelle = fire place
-spiżarnia
+#spiżarnia
 strych = Speicher = attic
-wnuków = Enkel = 
-samodzielne = ein(e) einzelnes Zimmer / Wohnung
-wspólne = 
-ponure
-ciasne
-przestronne
-lektorki
+wnuków = Enkel (pl) = grandchildren
+samodzielne = ein einzelnes Zimmer (adj) = single room (adj)
+#wspólne = 
+#ponure
+ciasne = eng = tight
+#przestronne
+#lektorki
 miesięcznie = monatlich = monthly
-kawalerka
-aneks
-lub
-wyposażona
-płatność
-szczegóły
+kawalerka = Singlewohnung = single flat
+aneks = Ergänzung = supplement
+#lub
+#wyposażona
+#płatność
+#szczegóły
 lodówka = Kühlschrank = fridge
 sofa = Sofa = couch
-lampa = Lampe = 
+lampa = Lampe = lamp
 regał = Regal = shelf
 pralka = Waschmaschine = laundry
 lóżko = Bett = bed
@@ -60,7 +64,7 @@ półka = Regal = shelf
 prysznic = Dusche = shower
 lustro = Spiegel = mirror
 krzesło = Stuhl = chair
-wieszak = Kleiderbügel =
+wieszak = Kleiderbügel = coat hangers
 kuchenka = Herd = cooker
 zmywarka = Spülmaschine = dishwasher
 szafka = Schrank = cupboard
@@ -74,3 +78,32 @@ ubikacja = Toilette = toilet
 obraz = Bild = picture
 biurko = Schreibtisch = desk
 zlew = Spülbecken = sink
+#zachód = 
+#wschód = 
+#północ =
+#skała =
+#cegła =
+#schronisko =
+#szlak =
+ciężarki = Hanteln = dumb bells
+na regale = auf dem Regal = on the shelf
+smok = Drache = dragon
+koń = Pferd = horse
+płyta = CD = CD
+gustowny = stilvoll = stylish
+czynsz = Miete = rent
+zalety = Vorteile = advantages
+wady = Nachteile = disadvantages
+#rycerz =
+dzielnica = Stadteil = town district
+#wydech =
+#wdech =
+#okienko =
+#w warsztacie =
+#czynny = 
+#czynna =
+#odloty =
+#przyloty =
+#dotykać =
+#możliwocść =
+#bezrobot =

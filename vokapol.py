@@ -13,11 +13,20 @@ def check_vocabulary(setting):
     
     # Check the user input
     if user_input == solution:
-        result = "Correct"
+        if setting == 'pl-en' or setting == 'en-pl':
+            result = "Correct"
+        else:
+            result = "Korrekt"
     elif user_input == '':
-        result = "Yet I can't guess your answer!"
+        if setting == 'pl-en' or setting == 'en-pl':
+            result = "Yet I can't guess your answer!"
+        else:
+            result = "Ich bin sehr schlecht im Raten!"
     else:
-        result = "Wrong, correct would be %s" % solution
+        if setting == 'pl-en' or setting == 'en-pl':
+            result = "Wrong, correct would be %s." % solution
+        else:
+            result = "Falsch, die korrekte Antwort lautet %s." % solution
     
     # If the user wants to retry show the ask_vocabulary.tpl with the same vocabulary again
     # Otherwise it's the first query which shows if the user input was correct in show_result.tpl
@@ -26,12 +35,17 @@ def check_vocabulary(setting):
     else:
         return template('show_result', result = result, user_input = user_input, vocabulary = vocabulary, solution = solution, setting = setting)
 
+# Handle all normal routes
 @route('/')
 @route('/<setting>', method = 'get')
 def ask_for_vocabulary(setting = 'pl-de'):
-    random_line = random.choice(open('dicts/de-pl.txt').readlines())
+    while True:
+        random_line = random.choice(open('dicts/de-pl.txt').readlines())
+        if "#" not in random_line:
+            break
+
     words = random_line.split(' = ')
-    
+
     # Set the vocabulary and the solution based on the language choice
     if setting == 'pl-de':
         vocabulary = words[0]
@@ -40,20 +54,20 @@ def ask_for_vocabulary(setting = 'pl-de'):
         vocabulary = words[1]
         solution = words[0]
     elif setting == 'pl-en':
-	vocabulary = words[0]
-	solution = words[2]
+        vocabulary = words[0]
+        solution = words[2]
     elif setting == 'en-pl':
-	vocabulary = words[2]
-	solution = words[0]
-    
+        vocabulary = words[2]
+        solution = words[0]
+
     return template('ask_vocabulary', vocabulary = vocabulary, solution = solution, setting = setting)
-    
+
 @route('/version')
 def show_version():
     words = open('dicts/de-pl.txt').readlines()
-    
+
     return template('version', words = len(words))
-    
+
 @route('/static/<filename>')
 def send_static(filename):
     return static_file(filename, root='static')
@@ -62,4 +76,4 @@ def send_static(filename):
 if socket.gethostname() == 'web150.webfaction.com':
     run(port = 59749, server = 'cherrypy')
 else:
-    run(host='localhost', port=8080, debug=True, reloader=True)
+    run(host = 'localhost', port = 8080, debug = True, reloader = True)
