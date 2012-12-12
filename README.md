@@ -1,4 +1,6 @@
-﻿# [Vokapol v0.1](http://vokapol.orzanna.de)
+# Development discontinued
+---
+# [Vokapol v0.1](http://vokapol.orzanna.de)
 
 *A simple Polish vocabulary engine*
 
